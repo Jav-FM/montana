@@ -353,8 +353,8 @@ p {
 
 /* Base
    ========================================================================== */
-body {
-  width: 1280px;
+.position_relative {
+  position: relative;
 }
 
 /* Header
@@ -415,12 +415,58 @@ body {
 
 /* Footer
    ========================================================================== */
+footer {
+  margin-top: 30px;
+  height: 100px;
+  padding: 50px;
+  background-color: #342E37;
+  color: #FFF;
+}
+
+.footer__container {
+  float: left;
+  padding: 0 30px;
+  font-family: "Lato", sans-serif;
+}
+.footer__container small {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.footer__logo {
+  padding-bottom: 15px;
+}
+.footer__logo img {
+  width: 300px;
+}
+
+.footer__contact-info p {
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  color: #FFF;
+}
+
+a {
+  color: #FA824C;
+}
+a:hover {
+  color: #A2A0A4;
+}
+
+.footer__text-emphasis {
+  padding-right: 3px;
+  font-weight: 700;
+}
+
 /* Buttons
    ========================================================================== */
 /**
  * Add base styles in button.
  */
 .button {
+  padding: 8px 20px;
   border: none;
   font-family: "Lato", sans-serif;
   font-size: 14px;
@@ -457,6 +503,19 @@ body {
   background-color: #342E37;
   font-family: "Lato", sans-serif;
   color: #FFF;
+  position: absolute;
+  z-index: 1;
+  bottom: 5px;
+  opacity: 0.8;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 10px;
+  max-width: 1080px;
+}
+
+.image-caption__short {
+  max-width: 1024px;
 }
 
 .link_primary {
@@ -485,5 +544,30 @@ body {
 
 /* Navigation
    ========================================================================== */
+.navbar__logo {
+  float: left;
+}
+.navbar__logo img {
+  width: 90px;
+}
+
+.navbar__container {
+  float: left;
+  width: 900px;
+  text-align: right;
+}
+.navbar__container ul {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+}
+.navbar__container li {
+  float: left;
+  padding-right: 10px;
+  list-style-type: none;
+}
+.navbar__container li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=main.css.map */

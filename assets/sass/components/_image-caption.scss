@@ -2,4 +2,17 @@
   background-color: $jet;
   font-family: $lato;
   color: $white;
+  position: absolute;
+  z-index: 1;
+  bottom: 5px;
+  opacity: .8;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 10px;
+  max-width: 1080px;
+}
+
+.image-caption__short {
+  max-width: 1024px;
 }

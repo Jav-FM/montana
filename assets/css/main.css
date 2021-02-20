@@ -368,6 +368,51 @@ body {
 
 /* Single Post
   ========================================================================== */
+.single-post__heading {
+  text-align: center;
+  padding: 0 200px;
+}
+
+.single-post__main-title {
+  font-size: 60px;
+}
+
+.single-post__meta {
+  font-size: 12px;
+  color: #A2A0A4;
+}
+
+.single-post__featured-image {
+  margin: 0 100px;
+  text-align: center;
+}
+
+.single-post__summary {
+  padding: 10px 0;
+}
+
+.single-post__content {
+  padding: 0 200px;
+}
+.single-post__content h2 {
+  font-size: 30px;
+}
+
+.single-post__image {
+  margin: 0;
+}
+
+.single-poste__quote {
+  margin-left: 0;
+}
+.single-poste__quote p {
+  font-size: 12px;
+}
+
+.single-post__pagination {
+  text-align: center;
+}
+
 /* Footer
    ========================================================================== */
 /* Buttons
